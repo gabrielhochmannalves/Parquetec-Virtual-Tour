@@ -36,7 +36,7 @@ O código fonte segue o padrão de organização por domínios:
 1. Certifique-se de ter o **Unity 6 (LTS)** instalado.
 2. Clone este repositório:
    ```bash
-   git clone [https://github.com/SEU_USUARIO/Parquetec-Virtual-Tour.git](https://github.com/gabrielhochmannalves/Parquetec-Virtual-Tour.git)
+   git clone [https://github.com/gabrielhochmannalves/Parquetec-Virtual-Tour.git](https://github.com/gabrielhochmannalves/Parquetec-Virtual-Tour.git)
 3. Abra o projeto via Unity Hub. 
 4. Execute a cena `Main` localizada em `Assets/_Project/Scenes`.
 ---
