@@ -1,0 +1,3 @@
+*.shader linguist-language=HLSL
+*.cginc linguist-language=HLSL
+*.m linguist-language=C#
