@@ -1,13 +1,15 @@
-# Ignorar arquivos binários e de configuração da Unity nas estatísticas
-
+# 1. Ignorar arquivos da Unity nas estatísticas (Remove o "Mathematica")
 *.mat linguist-generated
 *.meta linguist-generated
 *.prefab linguist-generated
 *.unity linguist-generated
 *.asset linguist-generated
-*.scm linguist-generated
+*.anim linguist-generated
+*.controller linguist-generated
 
-# Forçar identificação correta de Shaders e Scripts
+# 2. Arrumar Shaders
 *.shader linguist-language=HLSL
 *.cginc linguist-language=HLSL
-*.m linguist-language=C#
+
+# 3. Garantir que Scripts sejam C#
+*.cs linguist-language=C#
